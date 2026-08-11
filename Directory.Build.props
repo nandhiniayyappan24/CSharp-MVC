@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <NuGetAudit>true</NuGetAudit>
+    <NuGetAuditLevel>low</NuGetAuditLevel>
+    <MvcProject>$(MSBuildThisFileDirectory)src\CSharpMvc\CSharpMvc.csproj</MvcProject>
+    <TestProject>$(MSBuildThisFileDirectory)tests\CSharpMvc.Tests\CSharpMvc.Tests.csproj</TestProject>
+    <ToolsProject>$(MSBuildThisFileDirectory)tools\CSharpMvc.Tools\CSharpMvc.Tools.csproj</ToolsProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)tools\roslyn-sast\.globalconfig" />
+  </ItemGroup>
+</Project>
