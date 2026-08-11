@@ -1,0 +1,9 @@
+{
+  "stryker-config": {
+    "project": "../../src/CSharpMvc/CSharpMvc.csproj",
+    "test-projects": ["../../tests/CSharpMvc.Tests/CSharpMvc.Tests.csproj"],
+    "mutate": ["Services/**/*.cs"],
+    "test-runner": "vstest",
+    "reporters": ["html", "json"]
+  }
+}
