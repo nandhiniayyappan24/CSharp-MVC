@@ -1,0 +1,6 @@
+tool: AltCover
+language: csharp
+target_framework: "net45"
+project: ../../src/CSharpMvc/CSharpMvc.csproj
+tests: ../../tests/CSharpMvc.Tests/CSharpMvc.Tests.csproj
+tools_project: ../CSharpMvc.Tools/CSharpMvc.Tools.csproj
