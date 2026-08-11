@@ -1,0 +1,6 @@
+tool: lizard
+language: csharp
+target_framework: "net472"
+project: ../../src/CSharpMvc/CSharpMvc.csproj
+tests: ../../tests/CSharpMvc.Tests/CSharpMvc.Tests.csproj
+tools_project: ../CSharpMvc.Tools/CSharpMvc.Tools.csproj
