@@ -1,6 +1,6 @@
 # CSharp MVC — Monolithic (net6.0)
 
-ASP.NET Core MVC monolithic project for **net6** targeting **net6.0** (C# 10).
+ASP.NET Core MVC monolithic project for **net6** targeting **.NET 6** (`net6.0`).
 
 ## Project type
 
